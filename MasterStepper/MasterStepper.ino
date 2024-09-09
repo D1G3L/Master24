@@ -75,7 +75,7 @@ void moveWithAccelOnly(int steps, int MODE, int startSpeed, int maxSpeed) {
 }
 
 void moveWithConstantSpeed(int steps, int MODE, int speed) {
-  int delayTime = 3990000 / speed; 
+  int delayTime = 4000000 / speed; 
 
   digitalWrite(DIR_PIN, MODE);
 
